@@ -8,3 +8,23 @@
 a{
     text-decoration: none;
 }
+
+.bio-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rev-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 50%;
+}
+
+
+.cascade{
+    background-color: rgb(127, 165, 50);
+}
