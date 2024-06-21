@@ -1,3 +1,5 @@
+AOS.init();
+
 function toggle_dark_mode(){
     let is_dark_mode = localStorage.getItem("dark_mode")
     if (is_dark_mode == 'true') {

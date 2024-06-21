@@ -5,65 +5,96 @@
 }
 */
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-.bio-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+.bio-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 25px;
 }
 
-.rev-container{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    margin-right: 50%;
+.margin_all{
+    margin: 25px;
 }
 
-
-.cascade{
-    background-color: rgb(0, 202, 202);;;
+.rev-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 50%;
 }
 
-.head-mode-light{
-    background-color: rgb(2, 221, 221);
+.cascade {
+  background-color: rgb(0, 202, 202);
+  border-radius: 30px;
+  text-align: center;
+}
+
+.head-mode-light {
+  background-color: rgb(2, 221, 221);
 }
 
 .button {
-    background-color: rgb(2, 204, 204);;
-    border: none;
-    cursor: pointer;
-    font-size: 1.2rem;
-    padding: 20px 15px;
-
+  background-color: rgb(2, 204, 204);
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  padding: 20px 15px;
 }
 
 header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-bottom: 4px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 4px;
 }
 
 .button:hover {
-    background-color: rgb(0, 167, 167);
+  background-color: rgb(0, 167, 167);
 }
 
-.head-mode{
-    background-color: rgb(0, 202, 202);;
-    color: rgb(238, 238, 238);
+.head-mode {
+  background-color: rgb(0, 202, 202);
+  color: rgb(238, 238, 238);
 }
 
-.main-mode{
-    background-color: rgb(41, 39, 39);
-    color: rgb(238, 238, 238);
+.main-mode {
+  background-color: rgb(41, 39, 39);
+  color: rgb(238, 238, 238);
 }
 
-.footer-mode{
-    background-color: rgb(0, 202, 202);
-    color: rgb(238, 238, 238);
+.footer-mode {
+  background-color: rgb(0, 202, 202);
+  color: rgb(238, 238, 238);
+}
+
+.recroll-mode {
+  text-align: center;
+  font-size: 30px;
+}
+
+.round {
+  border-radius: 100px;
+}
+
+._button {
+  color: #000dc5a8;
+  text-align: center;
+  background-color: rgb(0, 180, 180);
+  border: none;
+  border-radius: 10px;
+  padding: 15px 10px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  font-size: 1rem;
+
+}
+
+._button:hover {
+  transform: scale(1.1);
 }
