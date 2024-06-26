@@ -1,5 +1,6 @@
 AOS.init();
 
+
 function toggle_dark_mode(){
     let is_dark_mode = localStorage.getItem("dark_mode")
     if (is_dark_mode == 'true') {
@@ -15,3 +16,30 @@ function toggle_dark_mode(){
 
 let button = document.querySelector(".button")
 button.addEventListener('click', toggle_dark_mode)
+
+setTimeout(
+    function() {
+
+    }, 5000
+)
+
+function my_anime(){
+    anime(
+        {
+            targets: '#Avatar',
+            direction: 5000, 
+            rotate: '5turn'
+        }
+    )
+    anime(
+        {
+            targets: '#Avatar',
+            direction: 5000, 
+            rotate: '5turn',
+            delay: 2500,
+            loop: true
+        }
+    )
+}
+
+my_anime()
